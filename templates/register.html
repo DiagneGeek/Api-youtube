@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+        
+</head>
+<body>
+    <h1>Welcome to our website</h1>
+    <p class="message">register you for get the best programming course!</p>
+    <form action="{{ url_for('register_t') }}" methods="POST">
+        <p>enter your name</p>
+        <input type="text" placeholder="ex:jhone doe" name="name"/>
+        <p>create a password</p>
+        <input type="password" placeholder="1234" name="psw"/><br>
+      <input type="submit" value="submit"/>
+    </form>
+
+</body>
+</html>
