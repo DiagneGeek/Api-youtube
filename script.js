@@ -1,5 +1,5 @@
-const datas = [
-  "fi",
-  "mafi",
-  "nek"
-]
+const datas = {
+   "x": "fi",
+   "y": "mafi",
+   "z": "nek"
+}
