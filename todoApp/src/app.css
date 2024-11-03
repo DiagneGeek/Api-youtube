@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background:black;
+    color:white;
+}
+form{
+    width:80%;
+    translate:10%;
+    margin:50px 0 20px 0;
+    input{
+        width:70%;
+        height: 50px;
+    }
+    button{
+        width:30%;
+        height: 50px;
+        background-color: yellow;
+    }
+}
+.empty-message{
+    text-align:center;
+    padding:20px 0;
+}

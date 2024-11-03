@@ -22,8 +22,8 @@
     <button type="submit">add</button>
   </form>
 
-  <div v-if="todos.length === 0"> you haven't a todo</div>
-  <div v-else>
+  <div v-if="todos.length === 0" class="empty-message"> you haven't a todo</div>
+  <div v-else class="todos">
      <ul>
        <li v-for="todo in todos" :key="id" v-show="todo.completed == false"> 
         <button @click="todo.completed = true ">delete</button>
