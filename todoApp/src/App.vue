@@ -26,9 +26,9 @@
   <div v-else class="todos">
      <ul>
        <li v-for="todo in todos" :key="id" v-show="todo.completed == false"> 
-        <button @click="todo.completed = true ">delete</button>
+        <input type="checkbox" />
         {{ todo.title }}
-
+        <button @click="todo.completed = true ">delete</button>
        </li>
      </ul>
 
